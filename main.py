@@ -308,7 +308,6 @@ class selectMenu(tk.Frame):
                 # command=lambda: [main_func.dispense(recipe)]
                 dispense['font'] = font3
                 dispense.place(x=320, y=520)
-                #add menu after dispense is pressed that tells user to place container on scale then button on that menu with dispense button
             
 
 class spiceDispense(tk.Frame):
@@ -365,7 +364,6 @@ class spiceDispense(tk.Frame):
         tbsp.place(x=635, y=350, anchor=CENTER)
 
 class editMenu(tk.Frame):
-    #add a frame where it displays error message that nothing is in the recipe dictionary
     def __init__(self, parent, controller):
             tk.Frame.__init__(self, parent)
 
@@ -450,7 +448,6 @@ class editMenu(tk.Frame):
                 # command=lambda: [main_func.dispense(recipe)]
                 dispense['font'] = font2
                 dispense.place(x=300, y=520)
-                #add menu after dispense is pressed that tells user to place container on scale then button on that menu with dispense button
                 table.e = Entry(table, width = 15, font=('Arial', 35))
                 table.e.grid(row = r, column = 0)
                 table.e.grid(row = r, column = 1)
