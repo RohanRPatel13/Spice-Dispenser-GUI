@@ -1,0 +1,2 @@
+# Spice Dispensor GUI
+This user interface was designed using tkinter in python. The purpose for this project was to create a prototype from a concept. My team and I chose to make an automatic spice dispensor, and I led the role to develop a user interface so the user can select what spices they would like to add to their recipe. An additional feature that was added was recipe logging so that the user can also choose to keep their most used recipes. I have also attached a video of the prototype model so you can see it in action!
